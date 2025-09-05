@@ -48,10 +48,10 @@ No backend: npm start ou node server.js
 
 No frontend: npm start (irá abrir automaticamente no navegador)
 
-Estrutura de pastas:
-ReactGram/
-├── frontend/       → React e interface do usuário
-└── backend/        → API REST, autenticação e lógica do servidor
+Estrutura de pastas:<br>
+ReactGram/<br>
+├── frontend/ <br>      → React e interface do usuário<br>
+└── backend/  <br>      → API REST, autenticação e lógica do servidor
 
 
 
