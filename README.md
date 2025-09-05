@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+ReactGram:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ReactGram é um projeto de aplicação web que simula funcionalidades básicas do Instagram, desenvolvido com React utilizando o Create React App. Este projeto permite explorar conceitos de desenvolvimento front-end com React, incluindo componentização, gerenciamento de estado e integração com APIs (se aplicável).
 
-## Available Scripts
 
-In the project directory, you can run:
+ Sobre o Projeto:
+ReactGram é um "clone" do Instagram, criado como um exercício para aprender e aplicar conceitos de React. Ele inclui funcionalidades como visualização de posts, interações básicas (como curtir e comentar, se implementado) e navegação em uma interface inspirada no Instagram.
+ Tecnologias Utilizadas
 
-### `npm start`
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+Create React App: Ferramenta para inicialização e configuração do projeto.
+JavaScript (ES6+): Para lógica da aplicação.
+CSS: Para estilização da interface.
+Node.js: Para execução do ambiente de desenvolvimento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Pré-requisitos
+Antes de começar, certifique-se de ter instalado:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Node.js (versão 16 ou superior recomendada)
+npm (geralmente incluído com o Node.js)
+Um editor de código, como Visual Studio Code
 
-### `npm test`
+🛠️ Instalação
+Siga os passos abaixo para configurar o projeto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone o repositório:
+git clone https://github.com/JoaoVictor992/ReactGram.git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Acesse o diretório do projeto:
+cd ReactGram
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale as dependências:
+npm install
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Inicie o servidor de desenvolvimento:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto será executado em modo de desenvolvimento e estará disponível em http://localhost:3000. A página será recarregada automaticamente ao fazer alterações no código.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Scripts Disponíveis
+No diretório do projeto, você pode executar os seguintes comandos:
 
-## Learn More
+Iniciar o projeto:
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Executa a aplicação em modo de desenvolvimento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Executar testes:
+npm test
 
-### Code Splitting
+Inicia o executor de testes no modo interativo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Construir para produção:
+npm run build
 
-### Analyzing the Bundle Size
+Gera uma versão otimizada da aplicação na pasta build.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Ejetar o Create React App:
+npm run eject
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Deploy
+Para implantar a aplicação, siga as instruções detalhadas na documentação do Create React App sobre deploy. Após executar npm run build, você pode hospedar a pasta build em serviços como GitHub Pages, Netlify ou Vercel.
 
-### Advanced Configuration
+Documentação Adicional
+Para mais informações sobre o Create React App e React, consulte:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Documentação do Create React App
+Documentação do React
+Divisão de Código
+Análise do Tamanho do Bundle
+Progressive Web App
+Solução de Problemas com npm run build
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Este projeto é um teste e um treino para minhas habilidades
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuições são bem-vindas!
