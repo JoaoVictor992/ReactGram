@@ -1,80 +1,59 @@
-ReactGram:
+ReactGram
 
-ReactGram é um projeto de aplicação web que simula funcionalidades básicas do Instagram, desenvolvido com React utilizando o Create React App. Este projeto permite explorar conceitos de desenvolvimento front-end com React, incluindo componentização, gerenciamento de estado e integração com APIs (se aplicável).
+Sobre o projeto
+
+ReactGram é um clone funcional do Instagram criado com ReactJS no frontend e uma API backend em Node.js. Permite criar posts, comentar, curtir, seguir perfis, além de login/autenticação — ideal para praticar conceitos modernos de desenvolvimento web.
+
+Funcionalidades principais
+
+Autenticação de usuários (cadastro e login)
+
+Criação, edição e exclusão de publicações
+
+Curtidas e comentários em posts
+
+Busca de usuários e perfis
+
+Interface responsiva e interativa
+
+Tecnologias utilizadas
+Camada	Ferramentas
+Frontend	ReactJS, TailwindCSS, Redux Toolkit
+Backend	Node.js, MongoDB, bcrypt, JSON Web Token (JWT)
+Outras	CORS, rotas REST, consumo de API (frontend ↔ backend)
+Como executar localmente
 
 
- Sobre o Projeto:
-ReactGram é um "clone" do Instagram, criado como um exercício para aprender e aplicar conceitos de React. Ele inclui funcionalidades como visualização de posts, interações básicas (como curtir e comentar, se implementado) e navegação em uma interface inspirada no Instagram.
- Tecnologias Utilizadas
 
-React: Biblioteca JavaScript para construção de interfaces de usuário.
-Create React App: Ferramenta para inicialização e configuração do projeto.
-JavaScript (ES6+): Para lógica da aplicação.
-CSS: Para estilização da interface.
-Node.js: Para execução do ambiente de desenvolvimento.
-
- Pré-requisitos
-Antes de começar, certifique-se de ter instalado:
-
-Node.js (versão 16 ou superior recomendada)
-npm (geralmente incluído com o Node.js)
-Um editor de código, como Visual Studio Code
-
-🛠️ Instalação
-Siga os passos abaixo para configurar o projeto localmente:
 
 Clone o repositório:
 git clone https://github.com/JoaoVictor992/ReactGram.git
 
+Acesse a pasta do projeto e navegue até as pastas frontend e backend, instalando as dependências:
 
-Acesse o diretório do projeto:
-cd ReactGram
+Como executar localmente
 
+Clone o repositório:
+git clone https://github.com/JoaoVictor992/ReactGram.git
 
-Instale as dependências:
-npm install
+Acesse a pasta do projeto e navegue até as pastas frontend e backend, instalando as dependências:
 
-
-Inicie o servidor de desenvolvimento:
-npm start
-
-O projeto será executado em modo de desenvolvimento e estará disponível em http://localhost:3000. A página será recarregada automaticamente ao fazer alterações no código.
+cd ReactGram/frontend && npm install  
+cd ../backend && npm install
 
 
- Scripts Disponíveis
-No diretório do projeto, você pode executar os seguintes comandos:
+Inicie os servidores:
 
-Iniciar o projeto:
-npm start
+No backend: npm start ou node server.js
 
-Executa a aplicação em modo de desenvolvimento.
+No frontend: npm start (irá abrir automaticamente no navegador)
 
-Executar testes:
-npm test
-
-Inicia o executor de testes no modo interativo.
-
-Construir para produção:
-npm run build
-
-Gera uma versão otimizada da aplicação na pasta build.
-
-Ejetar o Create React App:
-npm run eject
+Estrutura de pastas:
+ReactGram/
+├── frontend/       → React e interface do usuário
+└── backend/        → API REST, autenticação e lógica do servidor
 
 
- Deploy
-Para implantar a aplicação, siga as instruções detalhadas na documentação do Create React App sobre deploy. Após executar npm run build, você pode hospedar a pasta build em serviços como GitHub Pages, Netlify ou Vercel.
-
-Documentação Adicional
-Para mais informações sobre o Create React App e React, consulte:
-
-Documentação do Create React App
-Documentação do React
-Divisão de Código
-Análise do Tamanho do Bundle
-Progressive Web App
-Solução de Problemas com npm run build
 
 
 Este projeto é um teste e um treino para minhas habilidades
